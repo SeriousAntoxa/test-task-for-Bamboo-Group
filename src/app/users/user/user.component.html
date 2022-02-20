@@ -1,0 +1,8 @@
+<div class="user">
+  <ng-container *ngIf="!!infoUser">
+    <img class="user__image" src="{{infoUser.avatar_url}}" alt="">
+    <p class="user__desc">User Name: {{infoUser.login}}</p>
+    <p class="user__desc">User ID: {{infoUser.id}}</p>
+    <p class="user__desc">Profile link: {{infoUser.html_url}}</p>
+  </ng-container>
+</div>
